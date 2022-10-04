@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Generated App',
+      title: 'Programa de Ordenação de Número',
       theme: new ThemeData(
         primarySwatch: Colors.blue,
         primaryColor: const Color(0xFF2196f3),
@@ -185,6 +185,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void limpar() {
     pNum.text = "";
     sNum.text = "";
+    pnum.text= "Digite a Segunada";
     tNum.text = "";
     setState(() {
       ordenacao = "";
