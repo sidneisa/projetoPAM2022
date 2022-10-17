@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
               style: new TextStyle(
                   fontSize: 25.0,
                   color: const Color(0xFF000000),
-                  fontWeight: FontWeight.w500,
+                  fontWeight: FontWeight.w400,
                   fontFamily: "Roboto"),
             ),
             new Text(
@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
               style: new TextStyle(
                   fontSize: 25.0,
                   color: const Color(0xFF000000),
-                  fontWeight: FontWeight.w500,
+                  fontWeight: FontWeight.w400,
                   fontFamily: "Roboto"),
             ),
             new TextField(
@@ -185,7 +185,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void limpar() {
     pNum.text = "";
     sNum.text = "";
-    pnum.text= "Digite a Segunada";
+    pnum.text= "Digite a Segunda";
     tNum.text = "";
     setState(() {
       ordenacao = "";
